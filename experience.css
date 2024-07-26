@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+	background-color: rgb(31, 24, 50);
+}
+
+.skills
+{
+	color: white;
+	padding-left: 20px;
+	padding-top: 20px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+hr
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.skills #skillHeader
+{
+	text-align: left;
+	color: yellow;
+}
+
+.skills h2
+{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+.skills .languages
+{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.skills .languages .row1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.skills .languages .row2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.skills .languages p
+{
+	text-align: center;
+	font-size: 2rem;
+	margin-left: 60px;
+	background-color: rgba(52, 246, 253, 0.15);
+	padding: 10px;
+	border-radius: 20px;
+	border: 1px solid white;
+}
+
+.skills .languages p:hover
+{
+	background-color: black;
+	color: yellow;
+	-webkit-box-shadow:0px 0px 32px 0px rgba(255,255,255,0.95);
+-moz-box-shadow: 0px 0px 32px 0px rgba(255,255,255,0.95);
+box-shadow: 0px 0px 32px 0px rgba(255,255,255,0.95);
+}
+
+.skills .ides
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.skills .ides p
+{
+	text-align: center;
+	font-size: 2rem;
+	margin-left: 60px;
+	background-color: rgba(52, 246, 253, 0.15);
+	padding: 10px;
+	border-radius: 20px;
+	border: 1px solid white;
+}
+
+.skills .ides p:hover
+{
+	background-color: black;
+	color: yellow;
+	-webkit-box-shadow:0px 0px 32px 0px rgba(255,255,255,0.95);
+-moz-box-shadow: 0px 0px 32px 0px rgba(255,255,255,0.95);
+box-shadow: 0px 0px 32px 0px rgba(255,255,255,0.95);
+}
+
+.skills .frameworks .row1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.skills .frameworks .row2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.skills .frameworks p
+{
+	text-align: center;
+	font-size: 2rem;
+	margin-left: 60px;
+	background-color: rgba(52, 246, 253, 0.15);
+	padding: 10px;
+	border-radius: 20px;
+	border: 1px solid white;
+}
+
+.skills .frameworks p:hover
+{
+	background-color: black;
+	color: yellow;
+	-webkit-box-shadow:0px 0px 32px 0px rgba(255,255,255,0.95);
+-moz-box-shadow: 0px 0px 32px 0px rgba(255,255,255,0.95);
+box-shadow: 0px 0px 32px 0px rgba(255,255,255,0.95);
+}
+
+.experience
+{
+	margin-top: 20px;
+	margin-bottom: 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex: wrap;
+}
+
+#experienceHeader
+{
+	color: yellow;
+	margin-left: 20px;
+}
+
+.experience .extern
+{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: 800px;
+	background-color: white;
+	border-radius: 20px;
+	color: black;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.experience .extern:hover
+{
+	background-color: black;
+	color: white;
+	
+	-webkit-box-shadow:0px 0px 32px 0px rgba(255,255,255,0.95);
+	-moz-box-shadow: 0px 0px 32px 0px rgba(255,255,255,0.95);
+	box-shadow: 0px 0px 32px 0px rgba(255,255,255,0.95);
+}
+
+.experience .extern h1
+{
+	text-align: center;
+}
+
+.experience .extern h3
+{
+	margin-top: 15px;
+	text-align: left;
+	font-size: 1.5rem;
+	text-decoration: underline;
+	margin-left: 10px;
+}
+
+.experience .extern p
+{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.experience .extern a
+{
+	margin-top: 10px;
+	margin-left: 20px;
+	color: blue;
+}
+
+.experience .extern a:hover
+{
+	color: yellow;
+}
+
+.experience .calsys
+{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: 700px;
+	background-color: white;
+	border-radius: 20px;
+	color: black;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.experience .calsys:hover
+{
+	background-color: black;
+	color: white;
+	
+	-webkit-box-shadow:0px 0px 32px 0px rgba(255,255,255,0.95);
+	-moz-box-shadow: 0px 0px 32px 0px rgba(255,255,255,0.95);
+	box-shadow: 0px 0px 32px 0px rgba(255,255,255,0.95);
+}
+
+.experience .calsys h1
+{
+	text-align: center;
+}
+
+.experience .calsys h3
+{
+	margin-top: 15px;
+	text-align: left;
+	font-size: 1.5rem;
+	text-decoration: underline;
+	margin-left: 10px;
+}
+
+.experience .calsys p
+{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.experience .calsys a
+{
+	margin-left: 20px;
+	margin-top: 10px;
+	color: blue;
+}
+
+.experience .calsys a:hover
+{
+	color: yellow;
+}
