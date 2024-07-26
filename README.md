@@ -12,6 +12,6 @@ Within he 'html' folder, there are three main files:
   - experience.html: a page linked from the home page and the nav bar containing info about my relevant experience
                       and skills developed throughout coursework and hands on experience
 
-Future Implementations: 
+Future Implementations(as of 7/26/24): 
   - I plan on implementing a contact page that contains all my social media handles, github and linkedin links
   - I also plan on improving the User Interface and adding more features in the future
